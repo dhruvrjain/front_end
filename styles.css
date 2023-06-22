@@ -1,0 +1,60 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    color: #777;
+}
+
+header h1{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(215, 215, 215);
+    padding: .5em;
+}
+
+.nav a:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.main-nav li{
+    padding: 0 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-title{
+    text-align: center;
+    color: rgb(215, 215, 215);
+}
+header {
+    background-image: url("images/Flame-Breathing.jpg");
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .4);
+    background-blend-mode: multiply;
+}
