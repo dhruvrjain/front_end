@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
 html,
 body {
     padding: 0;
@@ -8,9 +11,10 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     color: #777;
+    font-size: 20px;
 }
 
-header h1{
+header h1 {
     padding-bottom: 40px;
     padding-top: 40px;
 }
@@ -20,17 +24,17 @@ header h1{
     margin: 0;
 }
 
-.nav li{
+.nav li {
     display: inline-block;
 }
 
-.nav a{
+.nav a {
     text-decoration: none;
     color: rgb(215, 215, 215);
     padding: .5em;
 }
 
-.nav a:hover{
+.nav a:hover {
     color: white;
     background-color: rgba(0, 0, 0, .4);
 }
@@ -42,19 +46,87 @@ header h1{
     border-bottom: 1px solid rgb(214, 214, 214);
 }
 
-.main-nav li{
+.main-nav li {
     padding: 0 5%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-.main-title{
+.main-title {
     text-align: center;
+    font-family: Metal Mania;
     color: rgb(215, 215, 215);
+    font-weight: normal;
+    font-style: normal;
 }
+
+.main-title-large {
+    margin: 0;
+    font-size: 60px;
+}
+
 header {
     background-image: url("images/Flame-Breathing.jpg");
     background-size: cover;
     background-color: rgba(0, 0, 0, .4);
     background-blend-mode: multiply;
+}
+
+.content-section {
+    margin: 10px;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 40px;
+}
+
+.about-img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+
+.main-footer h2 {
+    font-size: 60px;
+    text-align: left;
+}
+
+.main-footer {
+    background-color: #e3321a;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-title{
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.footer-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-nav li {
+    margin-left: 10px;
+}
+
+.footer-nav a:hover{
+    background-color: #e3321a;
 }
