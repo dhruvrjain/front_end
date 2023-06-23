@@ -4,7 +4,6 @@ Welcome to my front-end development learning journey! This repository serves as 
 
 
 ## Link to the website
-https://dhruvrjain.github.io/front_end/
 [Demon Slayer Fanpage Website](https://dhruvrjain.github.io/front_end/ "Visit the fanpage website of Demon Slayer")
 
 
