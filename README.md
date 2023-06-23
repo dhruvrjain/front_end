@@ -3,6 +3,11 @@
 Welcome to my front-end development learning journey! This repository serves as a record of my progress as I dive into the exciting world of HTML, CSS, and JavaScript. Through this journey, I aim to build a solid foundation in front-end development and enhance my skills in creating engaging and interactive web experiences. Please feel free to explore the projects and provide feedback. Your suggestions and insights are highly appreciated!
 
 
+## Link to the website
+https://dhruvrjain.github.io/front_end/
+[Demon Slayer Fanpage Website](https://dhruvrjain.github.io/front_end/ "Visit the fanpage website of Demon Slayer")
+
+
 ## Table of Contents
 
 - [About](#about)
