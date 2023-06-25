@@ -203,3 +203,9 @@ header {
 .fan-row:last-child{
     border-bottom: none;
 }
+
+.a-btn{
+    text-decoration: none;
+    color: rgb(215, 215, 215);
+    font-weight: bold;
+}
