@@ -165,13 +165,41 @@ header {
     padding-right: 2em;
 }
 
-.btn-play{
-    color: rgb(255, 85, 0);
-    font-size: 1.5em;
-    font-weight: 900;
-    border-radius: 50%;
-    height: 100px;
-    width: 100px;
-    padding: 0;
-    margin: 0 auto 1em;
+.fan-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.fan-item{
+    display: inline-block;
+    padding-right: .53em;
+}
+
+.fan-date{
+    color: #222;
+    width: 10%;
+}
+
+.fan-city{
+    width:24%;
+}
+
+.fan-venue{
+    width: 40%;
+}
+
+.fan-btn{
+    max-width: 19%;
+    color: white;
+    background-color: rgb(255, 85, 0);
+    border-radius: 0;
+}
+
+.fan-head{
+    color: #222;
+}
+
+.fan-row:last-child{
+    border-bottom: none;
 }
