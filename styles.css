@@ -193,7 +193,7 @@ header {
     max-width: 19%;
     color: white;
     background-color: rgb(255, 85, 0);
-    border-radius: 0;
+    border-radius: 5px;
 }
 
 .fan-head{
@@ -209,3 +209,140 @@ header {
     color: rgb(215, 215, 215);
     font-weight: 500;
 }
+
+.item-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .item-image {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  .item-details {
+    text-align: center;
+  }
+
+  .item-details button{
+    margin-left: 20px;
+  }
+  
+  .add-to-cart-btn {
+    margin-top: 10px;
+    background-color: rgb(255, 85, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Cart Styles */
+  .cart-container {
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .cart-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .cart-title-item{
+    color: #000;
+    padding-right: 380px;
+    border-bottom: 2px solid black;
+  }
+
+  .cart-title-quantity{
+    margin-right: 100px;
+    border-bottom: 2px solid black;
+    color: #000;
+  }
+
+  .cart-title-price{
+    border-bottom: 2px solid black;
+    color: #000;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-image {
+    display: block;
+    height: 100px;
+    width: 70px;
+    margin-right: 10px;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+
+  .cart-item-details strong{
+    margin-left: 100px;
+  }
+  
+  .cart-price {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .cart-quantity {
+    flex: 1;
+    text-align: right;
+  }
+
+  .cart-quantity input{
+    padding: 5px;
+    width: 50px;
+    color: #000;
+    border-color: #000;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .remove-btn {
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 10px;
+  }
+  
+  .purchase-btn {
+    margin-top: 10px;
+    background-color: rgb(255, 85, 0);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
